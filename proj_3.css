@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.center{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#clock{
+    font-size: 40px;
+    padding: 20px 70px;
+    margin-top: 20px;
+    border: 2px solid wheat;
+    border-radius: 20px ;
+    background-color: orange;
+}

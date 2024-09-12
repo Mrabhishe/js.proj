@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cursor{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:white;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0.1s;
+}
+h1{
+    font-size: 10vw;
+    font-weight: 900;
+}

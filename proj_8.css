@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    position: relative;
+}
+.element{
+    height: 120px;
+    width: 100%;
+    border-bottom: 3px solid white;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    position: relative;
+}
+.element h1{
+    color: white;
+    text-align: left;
+    font-size: 6vw;
+    margin-left: 50px;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+.element img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    opacity: 0;
+    /* transition: all linear 0.3s; */
+}

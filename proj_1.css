@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.button{
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#red{
+    background-color: red;
+}
+#gray{
+    background-color: gray;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
